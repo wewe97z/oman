@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  omani-encyclopedia:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: omani-encyclopedia-ai
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - SESSION_SECRET=${SESSION_SECRET:-change-this-in-production-to-a-secure-random-string}
+      - NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL:-http://localhost:3000}
+    volumes:
+      - encyclopedia_data:/app/data
+
+volumes:
+  encyclopedia_data:
+    driver: local
