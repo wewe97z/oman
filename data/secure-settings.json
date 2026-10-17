@@ -1,0 +1,13 @@
+{
+  "modelName": "gemini-2.5-flash",
+  "enableWebSearch": false,
+  "maxOutputTokens": 1536,
+  "maxInputChars": 1500,
+  "rateLimitPerMinute": 15,
+  "lastTestedAt": "2026-10-16T12:11:20.061Z",
+  "lastTestStatus": "ok",
+  "lastTestMessage": "الاتصال بالنموذج (gemini-2.5-flash) ناجح واستجاب الخادم: «ن»",
+  "encryptedApiKey": "7CuuzSWhaTp6YRyqDabjG6TdYugTr7h0uLO1L/kneSaR8mKvFYKU",
+  "iv": "4UVKsFPaTg0Kgb3x",
+  "authTag": "mdHQpiSeeJg6BcEClHvxFw=="
+}
