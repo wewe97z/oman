@@ -7,7 +7,8 @@
   "lastTestedAt": "2026-10-16T12:11:20.061Z",
   "lastTestStatus": "ok",
   "lastTestMessage": "الاتصال بالنموذج (gemini-2.5-flash) ناجح واستجاب الخادم: «ن»",
-  "encryptedApiKey": "7CuuzSWhaTp6YRyqDabjG6TdYugTr7h0uLO1L/kneSaR8mKvFYKU",
+  "encryptedApiKey": "
+    ",
   "iv": "4UVKsFPaTg0Kgb3x",
   "authTag": "mdHQpiSeeJg6BcEClHvxFw=="
 }
